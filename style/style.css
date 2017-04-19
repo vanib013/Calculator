@@ -1,0 +1,121 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+
+.body {
+  background-color: #F4DECB;
+
+}
+
+.container {
+  margin: 10px;
+}
+
+.keypad {
+  margin-left:  350px;
+  margin-right: 330px;
+  border: solid 1px;
+  border-color: #49274A;
+  border-spacing: 200%;
+  border-width: thick;
+  border-radius: 4px;
+}
+
+.result {
+  width: 400px;
+  height: 95px;
+  margin-left: 350px;
+  background-color: #49274A;
+  font-size: 250%;
+  color: #F8EEE7;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2%;
+  font-style: italic;
+  border: solid 1px;
+  border-color: #49274A;
+  border-spacing: 200%;
+  border-width: thick;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 250%;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2%;
+  font-style: italic;
+}
+
+.heading {
+  color: #49274A;
+}
+
+h2 i {
+  color: #94618E;
+}
+
+.number {
+  width: 130px;
+  background-color: #94618E;
+  text-align: center;
+  padding: 0.5% 1.6%;
+  color: #F8EEE7;
+  border-radius: 4px 4px 4px 4px;
+  font-family: 'Alegreya Sans';
+  font-size: 150%;
+}
+
+.numberZero {
+  background-color: #94618E;
+  text-align: center;
+  padding: 0.5% 6%;
+  color: #F8EEE7;
+  border-radius: 4px 4px 4px 4px;
+  font-family: 'Alegreya Sans';
+  font-size: 150%;
+  width: 390px;
+}
+
+.sign {
+  width: 130px;
+  display: inline-block;
+  background-color: #49274A;
+  text-align: center;
+  padding: 0.5% 1.6%;
+  color: #F8EEE7;
+  border-radius: 4px 4px 4px 4px;
+  font-family: 'Alegreya Sans';
+  font-size: 150%;
+}
+
+/*------------ MEDIA!!-----------*/
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 150%;
+  }
+
+  .result {
+    width: 330px;
+    height: 80px;
+    margin-left: 20px;
+  }
+
+  .keypad {
+    margin-left:  21.9px;
+    margin-right: 29px;
+  }
+
+  .number {
+    width: 105.5px;
+  }
+
+  .numberZero {
+    width: 318px;
+  }
+
+  .sign {
+    width: 105.5px;
+  }
+
+}
